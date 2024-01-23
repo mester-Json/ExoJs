@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="assure" src="./asset/img/logo1.svg" alt="">
+            <h1>
+                C'est le moment de réarmer !
+            </h1>
+            <a class="monTarif" href="./index.html"> Mon Tarif </a>
+            <a class="tarif" href="./Tarif.html"> Les Tarif </a>
+            <div class="div">
+                <!-- <i id="darkModeToggle" class="fa-solid fa-moon"></i> -->
+            </div>
+        </nav>
+    </header>
+    <form action="#" class="containerForm">
+        <label for="age">Âge du conducteur :</label>
+        <input type="number" id="age" min="18" max="99">
+        <label id="ageError" for="age"> Entrer un nombre </label>
+
+        <label for="permis">Années de permis :</label>
+        <input type="number" id="permis" min="0" max="99">
+        <label id="permisError" for="permis"> Entrer un nombre </label>
+
+        <label for="accident">Nombre d'accidents responsables :</label>
+        <input type="number" id="accident" min="0" max="99">
+        <label id="accidentError" for="accident"> Entrer un nombre </label>
+
+        <button onclick="calculerTarif()">Calculer le tarif</button>
+
+        <p id="resultat"></p>
+    </form>
+    <footer>
+        <img class="tenor-gif-embed" src="./asset/img/projet-macron.gif" alt="">
+        <p>L'aasurance du réarmenemnt- 2023</p>
+    </footer>
+    <script src="./asset/js/index.js"></script>
+    <script src="./asset/js/troll.js"></script>
+</body>
+
+
+</html>
