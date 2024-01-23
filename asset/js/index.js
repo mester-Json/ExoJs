@@ -85,17 +85,3 @@ function calculerTarif() {
 
 
 
-// document.getElementById('darkModeToggle').addEventListener('click', function () {
-//     var body = document.body;
-//     var h1 = document.querySelector('h1');
-//     var nav = document.querySelector('nav');
-//     var darkModeToggle = document.querySelector('#darkModeToggle');
-//     var div = document.querySelector('div');
-
-
-//     darkModeToggle.classList.toggle('dark-mode');
-//     div.classList.toggle('dark-mode');
-//     nav.classList.toggle('dark-mode');
-//     body.classList.toggle('dark-mode');
-//     h1.classList.toggle('dark-mode');
-// });

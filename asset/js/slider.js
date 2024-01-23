@@ -65,4 +65,4 @@ nextArrow.addEventListener('click', () => carrousel1.suivant())
 
 setInterval(() => {
     carrousel1.suivant()
-}, 600000);
+}, 30000);
