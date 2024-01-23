@@ -1,7 +1,7 @@
 document.body.addEventListener('click', function () {
     const audio = new Audio("asset/audio/cute-uwu.mp3");
     audio.play();
-    document.body.style.backgroundColor = couleurs[Math.floor(Math.random() * couleurs.length)];
+
 });
 
 
