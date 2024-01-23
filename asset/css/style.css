@@ -102,3 +102,25 @@ footer p {
     border: 3px solid white;
     margin-left: 20px;
 }
+
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav img {
+        height: 100px;
+    }
+
+    nav h1 {
+        margin: 0;
+    }
+
+    .containerForm {
+        margin: 20px;
+    }
+}

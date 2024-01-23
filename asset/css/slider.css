@@ -38,3 +38,42 @@
     color: rgb(0, 0, 0);
     border-radius: 20px;
 }
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+    .carousel {
+        width: auto;
+        height: 50px;
+        display: flex;
+        margin-top: 200px;
+        margin-left: 5px;
+        align-items: center;
+    }
+
+    #carouselContent {
+        width: 550px;
+        height: 550px;
+    }
+
+    #carouselContent>img {
+        width: auto;
+        height: 250px;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+
+    #carouselContent>p {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #arrowLeft {
+        display: none;
+    }
+
+    #arrowRight {
+        display: none;
+    }
+}
