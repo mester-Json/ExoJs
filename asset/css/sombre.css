@@ -1,106 +1,42 @@
 body.dark {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-image: url(../img/1601057405102-peepo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e0e0e0;
+}
+
+nav.dark,
+header.dark,
+form.dark,
+footer.dark {
+    background-color: #232323;
+    color: #e0e0e0;
+}
+
+h1.dark,
+a.dark,
+input.dark,
+button.dark,
+label.dark,
+p.dark {
+    color: #e0e0e0;
+}
+
+button.dark {
+    background-color: #232323;
+}
+
+input.dark {
+    background-color: #232323;
+
+}
+
+
+thead.dark,
+tbody.dark {
     background-color: #000000;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
-header.dark {
-    background-color: #1c2c3d;
-    color: rgb(0, 0, 0);
-    padding: 10px 0;
-}
-
-nav.dark {
-    background-color: #1c2c3d;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-nav img {
-    height: 150px;
-}
-
-nav h1.dark {
-    font-size: 1.5em;
-    margin: 0 500px;
-}
-
-nav a.dark {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin: 10 10px;
-}
-
-.containerForm.dark {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    margin-top: 200px;
-    margin-bottom: 146px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-}
-
-.containerForm label.dark {
-    display: block;
-    color: white;
-    margin-left: 10px;
-    margin-bottom: 5px;
-}
-
-.containerForm input.dark {
-    width: 96%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-}
-
-.containerForm button.dark {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: crosshair;
-}
-
-.containerForm button:hover {
-    background-color: #444;
-}
-
-
-#ageError.dark,
-#permisError.dark,
-#accidentError.dark {
-    color: red;
-    font-size: 12px;
-    visibility: hidden;
-    margin-bottom: 10px;
-}
-
-footer.dark {
-    background-color: #10500a;
-    color: white;
-    padding: 10px 0;
-}
-
-footer p.dark {
-    text-align: center;
-}
-
-.tenor-gif-embed.dark {
-    width: auto;
-    height: 100px;
-    border: 3px solid white;
-    margin-left: 20px;
+td.dark {
+    background-color: black;
 }
